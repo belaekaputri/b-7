@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Layout Bootsrap 2</title>
+   
+</head>
+<body>
+    <style type="text/css">
+       
+        .jumbotron
+        {
+          background-image: url("bg.jpg") ;
+          background-size: cover;
+          border-radius: 10px;   
+          height:500px;
+          
+        }
+        h1{
+          padding-top: 100px;
+        }
+
+        p
+        {
+          color:#b3947f;
+        }
+
+        .btn-primary 
+        {
+          color: #fff;
+          background-color: #184355;
+          border-color: #184355;
+        } 
+     
+       .btn-primary:hover
+        {
+          color: #fff;
+          background-color:#d3a194;
+          border-color: #d3a194;
+        } 
+
+       li a
+       {
+          text-decoration: none;
+          color:black;
+       }
+
+      .content
+      {
+          height:300px;
+          background-color: #e6bbae;
+          box-sizing: border-box;
+   
+      }
+
+      p,h2
+      {
+          color:#082b3a;
+          text-align: center; 
+      }
+
+      h2
+      {
+           padding-top: 25px;
+      }
+      
+      p{
+           padding-left: 35px;
+           padding-right: 35px;
+      }
+
+      .card
+      {
+           border:2px solid #d3a194;
+      }
+      
+      .bg-primary
+      {
+           background-image: url("1.jpg");
+           height:450px;
+           background-size: cover;
+           background-color:#d3a194;
+      }
+
+      .bg-warning
+      {
+           background-image: url("2.jpg");
+           height:450px;
+           background-size: cover;
+           background-color:#d3a194;
+      }
+
+      .bg-success
+      {
+           background-image: url("3.jpg");
+           height:450px;
+           background-size: cover;
+           background-color:#d3a194;
+      }
+
+      footer
+      {
+           background-color:#d3a194;
+      }
+
+     
+    </style>
+
+
+    <div class="container">
+
+
+
+           <div class="jumbotron"><!--1.Jumbotron-->
+
+               <h1 class="display-4 "><center>BELA EKA PUTRI, S.Kom</center</h1>
+                <!--<p class="lead  font-weight-light mt-4" >This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information. mt margin top</p>-->
+                <hr class="my-4">
+                <!--<p class="mb-4">It uses utility classes for typography and spacing to space content out within the larger container.</p> mb margin bottom-->
+                <a class="btn btn-primary btn-lg " href="#" role="button">Learn more</a>
+
+            </div>
+
+
+                                        <nav class="navbar navbar-expand-sm bg-light mt-n5 "><!--2.Navbar-->
+
+                                              <ul class="navbar-nav">
+                                                  <li class="nav-item">
+                                                      <a class="nav-link" href="#">Home</a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                      <a class="nav-link" href="#">About</a>
+                                                  </li>
+                                                  <li class="nav-item">
+                                                      <a class="nav-link" href="#">Contact</a>
+                                                  </li>
+                                              </ul>
+
+                                              <ul class="navbar-nav ml-auto">
+                                                  <li class="nav-item ">
+                                                      <a class="nav-link " href="#">Log Out</a>
+                                                  </li>
+                                              </ul>
+                                              
+                                        </nav>
+
+
+                                              <div class="content "><!--3.Content-->
+
+                                                  <h2 class="lead"  > Secondary Text</h2>
+                                                      <p class="font-weight-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eaque 
+                                                          deserunt ratione consequuntur delectus autem provident nesciunt optio
+                                                          harum vero nisi, sed nemo neque cumque quae reprehenderit quidem debitis 
+                                                          suscipit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                                                            deleniti maxime rem omnis, assumenda nemo alias quasi doloribus earum possimus voluptatibus
+                                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                                                            deleniti maxime rem omnis, assumenda nemo alias quasi doloribus earum possimus voluptatibus
+                                                            >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eaque 
+                                                          deserunt ratione consequuntur delectus autem provident nesciunt optio
+                                                          harum vero nisi, sed nemo neque cumque quae reprehenderit quidem debitis 
+                                                          suscipit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                                                            deleniti maxime rem omnis, assumenda nemo alias quasi doloribus earum possimus voluptatibus
+                                                            suscipit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                                                            deleniti maxime rem omnis, assumenda nemo alias quasi doloribus earum possimus voluptatibus
+                                                      </p>
+
+                                              </div>
+                        
+                                                        <div class="card-deck pt-1"><!--4.Image-->
+                                                          
+
+                                                              <div class="card bg-primary">
+                                                                <div class="card-body text-center"></div>
+                                                              </div>
+
+                                                              <div class="card bg-warning">
+                                                                <div class="card-body text-center"></div>
+                                                              </div>
+
+                                                              <div class="card bg-success">
+                                                                <div class="card-body text-center"></div>
+                                                            </div>
+
+
+                                                        </div>
+
+          <footer class="page-footer font-small dark mt-1"><!--5.Footer-->
+
+             <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">&copy; 2020 Copyright:Bela Eka Putri
+                </div>
+                <!-- Copyright -->
+              
+          </footer>
+
+           
+
+     </div>
+        
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
